@@ -14,7 +14,7 @@ Try the **Anime-Chatbot Live Demo** here:
 
 - **Backend:** Python, Flask  
 - **AI/ML:** RAG pipeline logic, text-based generative model  
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** Streamlit
 - **Dependencies:** Listed in `requirements.txt`  
 
 ---
