@@ -12,7 +12,7 @@ Try the **Anime-Chatbot Live Demo** here:
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Python, Flask  
+- **Backend:** Python
 - **AI/ML:** RAG pipeline logic, text-based generative model  
 - **Frontend:** Streamlit
 - **Dependencies:** Listed in `requirements.txt`  
