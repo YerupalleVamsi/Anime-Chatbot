@@ -1,55 +1,84 @@
-# Anime-Chatbot
-## 🔗 Live Demo
 
-Try the **Anime-Chatbot Live Demo** here:  
+
+# Anime Chatbot 🤖🎮 
+
+
 👉 [site](https://mikasavamsi.streamlit.app/) --> Probably the API is expired ...
 
-
-
-**Anime-Chatbot** is a Python-based chatbot web application that lets users chat with an AI-powered anime character. It leverages a **RAG (Retrieval-Augmented Generation) pipeline** to combine contextual information with AI-generated responses, creating an interactive and fun experience. Built with **Flask** for the backend and a simple web interface for frontend interaction.
-
----
-
-## 🛠️ Tech Stack
-
-- **Backend:** Python
-- **AI/ML:** RAG pipeline logic, text-based generative model  
-- **Frontend:** Streamlit
-- **Dependencies:** Listed in `requirements.txt`  
+![GitHub stars](https://img.shields.io/github/stars/YerupalleVamsi/Anime-Chatbot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/YerupalleVamsi/Anime-Chatbot?style=social)
+![GitHub issues](https://img.shields.io/github/issues/YerupalleVamsi/Anime-Chatbot)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![NLP](https://img.shields.io/badge/NLP-Chatbot-orange)
 
 ---
 
-## 🚀 Features
+## 📌 Project Overview
 
-- Interactive web-based chatbot UI  
-- Combines context retrieval with generative AI responses  
-- Lightweight, easy to run locally  
-- Modular Python backend for easy customization  
-- Ready for adding multiple anime characters or personalities  
+**Anime Chatbot** is an interactive chatbot built using **Python and Natural Language Processing (NLP)** that can converse with users about anime.  
+It is designed as a learning project to explore **chatbot architectures, text processing, and conversational AI**.
 
----
-
-## 🌟 How It Works
-
-1. The user sends a message via the web UI.  
-2. The backend receives the input and processes it through the RAG pipeline in `rag.py`.  
-3. Contextual information is retrieved and combined with AI-generated responses.  
-4. The AI response is sent back and displayed in the web interface.  
-
-This allows the chatbot to answer questions based on prior context and provide dynamic, engaging conversations.
+The chatbot understands user input and generates meaningful responses based on its training data.
 
 ---
 
-## ⚡ Installation & Usage
+## ✨ Features
 
-Clone the repo, install dependencies, and run the app:
+- 🤖 Interactive text-based chatbot  
+- 🧠 Uses NLP & Machine Learning concepts  
+- 🎌 Anime-focused conversations  
+- 🔁 Easy to retrain and extend  
+- 📦 Clean and modular project structure  
 
-```bash
-git clone https://github.com/YerupalleVamsi/Anime-Chatbot
-cd Anime-Chatbot
-pip install -r requirements.txt
-python app.py
+---
+
+## 🛠 Tech Stack
+
+- **Python**
+- **Natural Language Processing (NLP)**
+- **Machine Learning**
+- **Jupyter Notebook / Python Scripts**
+- **NLTK / Scikit-learn (if used)**
+
+---
+
+## 📂 Project Structure
+
+```
+Anime-Chatbot/
+│
+├── dataset/ # Training data / anime dialogues
+├── model/ # Saved trained models
+├── chatbot.py # Main chatbot application
+├── train.py # Script to train the chatbot
+├── utils.py # Helper functions
+├── requirements.txt # Project dependencies
+└── README.md
 ```
 
 ---
 
+## ⚙️ How It Works
+
+1. User enters a message  
+2. Input text is processed using NLP techniques  
+3. The trained model predicts the best response  
+4. Chatbot displays the response  
+5. Conversation continues until user exits  
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/YerupalleVamsi/Anime-Chatbot.git
+cd Anime-Chatbot
+2️⃣ (Optional) Create Virtual Environment
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+▶️ Run the Chatbot
+```
+```
