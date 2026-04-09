@@ -36,7 +36,7 @@ if user_url:
                     duckduckgo_res = search_duckduckgo(question)
 
                     combined_context = f"RAG : {context}\n\nWeb :{duckduckgo_res}"
-                    llm = ChatGroq(model ="llama-3.3-70b-versatile", temperature=1,api_key=os.getenv("API"))
+                    llm = ChatGroq(model ="llama-3.3-70b-versatile", temperature=1, api_key=st.secrets["API"])
                     prompt = ChatPromptTemplate.from_template(
                         """
                         Answer the following question based on the provided context.
